@@ -2,11 +2,15 @@
 
 require_once ("Add.php");
 require_once ("Read.php");
+require_once ("Eraser.php");
+require_once ("Edit.php");
 
 class Router
 {
     protected $add;
     protected $read;
+    protected $eraser;
+    protected $edit;
 
     public function response()
     {
@@ -22,10 +26,12 @@ class Router
                 echo $this->read->renderView();
                 break;
             case 'Borrar':
-                echo "Borrar";
+                $this->eraser = new Eraser();
+                echo $this->eraser->renderView();
                 break;
             case 'Editar':
-                echo "Editar";
+                $this->edit = new Edit();
+                echo $this->edit->renderView();
                 break;
             default:
                 echo "Accion no reconocida";
