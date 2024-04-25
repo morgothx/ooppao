@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'MyNamespace\\' => array($baseDir . '/src/MyNamespace'),
+    'Pao\\' => array($baseDir . '/src'),
 );

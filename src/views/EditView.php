@@ -1,5 +1,7 @@
 <?php
 
+namespace Pao\views;
+
 class EditView
 {
     private $edit;

@@ -1,6 +1,8 @@
 <?php
 
-require_once ("../views/ReadView.php");
+namespace Pao\controller;
+
+use Pao\views\ReadView;
 
 class Read
 {

@@ -1,9 +1,11 @@
 <?php
 
-require_once ("Add.php");
-require_once ("Read.php");
-require_once ("Eraser.php");
-require_once ("Edit.php");
+namespace Pao\controller;
+
+use Pao\controller\Add;
+use Pao\controller\Edit;
+use Pao\controller\Eraser;
+use Pao\controller\Read;
 
 class Router
 {

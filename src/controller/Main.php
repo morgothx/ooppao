@@ -1,6 +1,8 @@
 <?php
 
-require_once ("../views/MainView.php");
+namespace Pao\controller;
+
+use Pao\views\MainView;
 
 class Main
 {

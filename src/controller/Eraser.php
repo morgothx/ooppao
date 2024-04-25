@@ -1,6 +1,8 @@
 <?php
 
-require_once ("../views/EraserView.php");
+namespace Pao\controller;
+
+use Pao\views\EraserView;
 
 class Eraser
 {

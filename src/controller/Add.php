@@ -1,6 +1,8 @@
 <?php
 
-require_once ("../views/AddView.php");
+namespace Pao\controller;
+
+use Pao\views\AddView;
 
 class Add
 {

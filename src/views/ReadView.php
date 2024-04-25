@@ -1,5 +1,7 @@
 <?php
 
+namespace Pao\views;
+
 class ReadView
 {
     private $form;

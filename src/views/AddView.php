@@ -1,5 +1,7 @@
 <?php
 
+namespace Pao\views;
+
 class AddView
 {
     private $form;
