@@ -5,6 +5,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Pao\controller\Main;
 use Pao\controller\Router;
 
+echo "Camilo estuvo aqui";
 
 $main = new Main();
 $router = new Router();
